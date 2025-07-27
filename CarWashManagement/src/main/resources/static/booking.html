@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book a Service</title>
+    <link rel="stylesheet" href="booking.css">
+</head>
+<body>
+
+<nav>
+    <div class="logo">Machine Wash</div>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<header>
+    <h1 style="text-align:center">Book Your Car Wash</h1>
+</header>
+
+<!-- Centered Booking Form -->
+<div class="booking-container">
+    <div class="booking-box">
+        <h2>Book Your Time Slot</h2>
+
+        <label for="serviceName">Service:</label>
+        <input type="text" id="serviceName" readonly>
+
+        <label for="date">Select Date:</label>
+        <input type="date" id="date" required>
+
+        <label for="time">Select Time:</label>
+        <select id="time">
+            <option value="9:00 AM">9:00 AM</option>
+            <option value="10:00 AM">10:00 AM</option>
+            <option value="11:00 AM">11:00 AM</option>
+            <option value="12:00 PM">12:00 PM</option>
+            <option value="1:00 PM">1:00 PM</option>
+            <option value="2:00 PM">2:00 PM</option>
+            <option value="3:00 PM">3:00 PM</option>
+            <option value="4:00 PM">4:00 PM</option>
+            <option value="5:00 PM">5:00 PM</option>
+        </select>
+
+        <button type="button" onclick="confirmBooking()" id="confirmBooking">Confirm Booking</button>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2025 Machine Wash. All rights reserved.</p>
+</footer>
+
+
+<script src="booking.js"></script>
+
+</body>
+</html>

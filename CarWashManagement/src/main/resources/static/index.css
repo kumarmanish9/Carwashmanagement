@@ -1,0 +1,159 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+    background: #0077b6;
+    color: white;
+    padding: 20px;
+    height: 500px; /* Adjust height as needed */
+background-image: url('first-section.jpg');
+
+
+    background-size: cover; /* Ensures the image covers the full area */
+    background-position: center; /* Centers the image */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: space-between; /* Pushes content to opposite corners */
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333; /* Adjust background color as needed */
+}
+
+nav .logo {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+
+/* Sections */
+section {
+    padding: 20px;
+}
+
+.service {
+    background: white;
+    padding: 15px;
+    margin: 10px auto;
+    width: 80%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact Form */
+form {
+    width: 50%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+button {
+    background: #0077b6;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #023e8a;
+}
+
+/* Footer */
+footer {
+    background: #0077b6;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+#about
+{
+   text-color:#023e8a;
+    padding: 10px;
+}
+.services {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+
+}
+
+.service {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+.service:hover {
+    transform: scale(1.05);
+}
+
+.service img {
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+.login-btn {
+  color: white;
+  background-color: #0077b6;
+  padding: 8px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.login-btn:hover {
+  background-color: #023e8a;
+}
+
+
+
+
+
+

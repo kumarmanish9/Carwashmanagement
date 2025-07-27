@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Wash Center</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-RXf+QSDCUQs6Q0+Kf4r+6aFeM+zzE8k+6pW2K+JQrGbJ0n7yYq4KLj5cK6L7Y9T2HYHMOZQWtvG3pW2PswfLZw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+<body>
+<nav>
+    <div class="logo">Machine Wash</div>
+    <ul>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li>
+            <a href="login.html" class="login-btn">
+                <i class="fas fa-user-alt" style="font-size: 20px;"></i> Login
+            </a>
+        </li>
+    </ul>
+</nav>
+
+
+
+<header>
+    <h1>WELCOME TO MACHINE WASH CENTER</h1>
+    <p><strong>PREMIUM CAR WASHING & DETAILING SERVICE</strong></p>
+</header>
+
+
+<section id="services" class="Services">
+    <h2 style="color:#023e8a">Services</h2>
+</section>
+
+
+<section class="services">
+    <div class="service">
+        <img src="Images/hatchback.jpg" alt="Basic Wash">
+        <br><br>
+        <h2>Hatchback</h2>
+        <p>Exterior hand wash and dry</p>
+        <p class="price">Price-350</p>
+        <button onclick="window.location.href='booking.html?service=Hatchback'">Book Hatchback</button>
+    </div>
+
+    <div class="service">
+        <img src="Images/sudan2.jpg" alt="Premium Wash">
+        <h2>Sedan</h2>
+        <p>Interior & exterior deep cleaning</p>
+        <p class="price">Price-450</p>
+        <button onclick="window.location.href='booking.html?service=Sedan'">Book Sedan</button>
+    </div>
+</section>
+
+<section class="services">
+    <div class="service">
+        <img src="Images/xuv2.jpg" alt="XUV/SUV">
+        <h2>XUV/SUV</h2>
+        <p>Exterior hand wash and dry</p>
+        <p class="price">Price-550</p>
+        <button onclick="window.location.href='booking.html?service=XUV'">Book XUV</button>
+    </div>
+
+    <div class="service">
+        <img src="Images/luxry.jpg" alt="Premium Wash">
+        <h2>Premium Wash</h2>
+        <p>Interior & exterior deep cleaning</p>
+        <p class="price">Price-700</p>
+        <button onclick="window.location.href='booking.html?service=Premium'">Book Premium</button>
+    </div>
+</section>
+<section id="about">
+    <h2 style="color:#023e8a">About Us</h2>
+    <p>We provide high-quality car washing and detailing services to keep your car sparkling clean. Our team is trained to offer the best service with premium products.</p>
+</section>
+
+<section id="contact">
+    <h2 style="color:#023e8a">Contact Us</h2>
+    <form id="contactForm" action="https://formspree.io/f/xnnjzwza"
+          method="POST" >
+        <label for="name">Name:</label>
+        <input type="text" id="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" required></textarea>
+
+        <button type="submit">Send</button>
+    </form>
+    <p id="responseMessage"></p>
+</section>
+
+
+
+<footer>
+    <p>&copy; 2025 Sparkle Car Wash. All rights reserved.</p>
+</footer>
+<!-- Link to JavaScript -->
+<script src="index.js"></script>
+
+</body>
+</html>
